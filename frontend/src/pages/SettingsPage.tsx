@@ -16,7 +16,7 @@ export function SettingsPage() {
       <div className="panel">
         <div className="meta-grid">
           <div><span className="label">MongoDB</span><strong>{data?.database ?? 'Not configured'}</strong></div>
-          <div><span className="label">YouTube API</span><strong>{data?.youtubeApi ?? 'Not configured'}</strong></div>
+          <div><span className="label">YouTube Discovery</span><strong>{data?.youtubeApi ?? 'Ready'}</strong></div>
           <div><span className="label">LLM</span><strong>{data?.llm ?? 'Not configured'}</strong></div>
           <div><span className="label">SMTP</span><strong>{data?.smtp ?? 'Not configured'}</strong></div>
           <div><span className="label">Email mode</span><strong>{data?.emailMode ?? 'simulation'}</strong></div>

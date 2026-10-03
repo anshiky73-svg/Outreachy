@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python virtual environment
+backend/.venv/
+.venv/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/.next/
+backend/__pycache__/

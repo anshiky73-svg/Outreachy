@@ -13,6 +13,7 @@ opentelemetry-api==1.45.0
 pydantic==2.13.5
 pydantic-settings==2.15.0
 pydantic_core==2.46.5
+playwright==1.55.0
 pymongo==4.18.2
 python-dotenv==1.2.4
 PyYAML==6.0.3
